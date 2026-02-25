@@ -1,5 +1,5 @@
 {
-  "tests": 8,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
@@ -9,22 +9,22 @@
         {
           "name": "StartsEmpty",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 6
+          "line": 7
         },
         {
           "name": "findPacketStart",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 11
+          "line": 12
         },
         {
           "name": "HandlesWrapAround",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 20
+          "line": 21
         },
         {
           "name": "findPacketLength",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 31
+          "line": 32
         }
       ]
     },
@@ -35,22 +35,38 @@
         {
           "name": "printLocation",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 41
+          "line": 42
         },
         {
           "name": "calculateDistance1",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 51
+          "line": 52
         },
         {
           "name": "calculateDistance2",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 57
+          "line": 58
         },
         {
           "name": "NegativeAltitude",
           "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
-          "line": 63
+          "line": 64
+        }
+      ]
+    },
+    {
+      "name": "TelemetryMessage",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "serialize1",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
+          "line": 72
+        },
+        {
+          "name": "serialize2",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
+          "line": 81
         }
       ]
     }

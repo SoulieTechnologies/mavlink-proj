@@ -783,10 +783,13 @@ CMakeFiles/run_tests.dir/tests/test_ringbuffer.cpp.o: /Users/theophile/Theophile
   _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h \
   _deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h \
   /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src/ringbuffer.h \
+  /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src/telemetrymessage.h \
   /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src/waypoint.h
 
 
 /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src/waypoint.h:
+
+/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src/telemetrymessage.h:
 
 _deps/googletest-src/googletest/include/gtest/internal/gtest-string.h:
 
