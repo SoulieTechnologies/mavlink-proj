@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/src -I/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/mavlink -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-src/googlemock/include -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-src/googlemock -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-src/googletest/include -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/src -I/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/mavlink -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-src/googlemock/include -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-src/googlemock -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-src/googletest/include -isystem /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -std=c++17 -arch arm64  -DGTEST_HAS_PTHREAD=1  
 

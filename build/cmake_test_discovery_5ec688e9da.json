@@ -8,22 +8,22 @@
       "testsuite": [
         {
           "name": "StartsEmpty",
-          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/my_drone_proj\/tests\/test_ringbuffer.cpp",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
           "line": 5
         },
         {
           "name": "findPacketStart",
-          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/my_drone_proj\/tests\/test_ringbuffer.cpp",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
           "line": 10
         },
         {
           "name": "HandlesWrapAround",
-          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/my_drone_proj\/tests\/test_ringbuffer.cpp",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
           "line": 19
         },
         {
           "name": "findPacketLength",
-          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/my_drone_proj\/tests\/test_ringbuffer.cpp",
+          "file": "\/Users\/theophile\/TheophileCodes\/CLeAR\/Orca\/orca_core\/cpp-training\/MAVLink-proj\/tests\/test_ringbuffer.cpp",
           "line": 30
         }
       ]

@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj
+CMAKE_SOURCE_DIR = /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build
+CMAKE_BINARY_DIR = /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/CMakeFiles /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-build//CMakeFiles/progress.marks
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/CMakeFiles 0
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/CMakeFiles /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-build//CMakeFiles/progress.marks
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,17 +148,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -184,6 +184,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

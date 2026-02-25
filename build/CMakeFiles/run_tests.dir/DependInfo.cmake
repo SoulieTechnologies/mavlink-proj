@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/tests/test_ringbuffer.cpp" "CMakeFiles/run_tests.dir/tests/test_ringbuffer.cpp.o" "gcc" "CMakeFiles/run_tests.dir/tests/test_ringbuffer.cpp.o.d"
+  "/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/tests/test_ringbuffer.cpp" "CMakeFiles/run_tests.dir/tests/test_ringbuffer.cpp.o" "gcc" "CMakeFiles/run_tests.dir/tests/test_ringbuffer.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

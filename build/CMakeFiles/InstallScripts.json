@@ -1,10 +1,10 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/cmake_install.cmake",
-		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-build/cmake_install.cmake",
-		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-build/googlemock/cmake_install.cmake",
-		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/my_drone_proj/build/_deps/googletest-build/googletest/cmake_install.cmake"
+		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/cmake_install.cmake",
+		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-build/cmake_install.cmake",
+		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/Users/theophile/TheophileCodes/CLeAR/Orca/orca_core/cpp-training/MAVLink-proj/build/_deps/googletest-build/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
