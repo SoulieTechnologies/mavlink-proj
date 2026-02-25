@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "ringbuffer.h"
 #include "waypoint.h"
+#include <telemetrymessage.h>
 #include "gtest/gtest.h"
 
 TEST(RingBufferTest, StartsEmpty){
@@ -68,3 +69,21 @@ TEST(WayPointTest, NegativeAltitude){
     }
 }
 
+TEST(TelemetryMessage, serialize1){
+    std::vector<TelemetryMessage*> messages;
+    HeartbeatMessage* heartbeat;
+    messages.push_back(heartbeat);
+    for (TelemetryMessage* msg: messages){
+        EXPECT_STREQ(msg->serialize().c_str(), "bip bip bip");
+    }
+}
+
+TEST(TelemetryMessage, serialize2){
+    std::vector<TelemetryMessage*> messages;
+    GPSMessage* gps = new GPSMessage(12, 2.5);
+    messages.push_back(gps);
+    for (TelemetryMessage* msg: messages){
+        EXPECT_STREQ(msg->serialize().c_str(), "latitude: 12\n\rlongitude: 2.5");
+    }
+    
+}
